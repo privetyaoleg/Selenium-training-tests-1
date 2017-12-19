@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="by.htp.testng.QuizTest">
+        <methods>
+          <include name="noEmail"/>
+          <include name="googleTitleTest"/>
+          <include name="repeatedName"/>
+          <include name="itAcademy"/>
+          <include name="tutMainNewsTest"/>
+          <include name="noName"/>
+          <include name="afterClass"/>
+          <include name="isTitleGoogleTest"/>
+          <include name="noPassword"/>
+          <include name="wrongEmail"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.htp.testng.QuizTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
